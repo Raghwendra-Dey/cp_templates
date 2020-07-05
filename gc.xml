@@ -18,6 +18,7 @@
 #define all(x) (x).begin(), (x).end()
 #define sz(x) (long long int)(x).size()
 #define prv(a) for(auto x : a) cout << x << ' ';cout << '\n';
+#define debv(a) for(auto x : a) cerr << x << ' ';cerr << '\n';
 #define min3(a, b, c) min(a, min(b, c))
 #define max3(a, b, c) max(a, max(b, c))
 #define MOD 1000000007
