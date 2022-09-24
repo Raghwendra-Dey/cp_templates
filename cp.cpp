@@ -3,9 +3,9 @@ using namespace std;
 #define int long long
 #define uint unsigned long long;
 #define endl "\n"
-#define fr(iter,n)  for(ll iter=0;iter<n;++iter)
-#define frr(iter,s,e) for(ll iter=s;iter<e;++iter)
-#define rfrr(iter,s,e)  for(ll iter=s;iter>=e;--iter)
+#define fr(iter,n)  for(int iter=0;iter<n;++iter)
+#define frr(iter,s,e) for(int iter=s;iter<e;++iter)
+#define rfrr(iter,s,e)  for(int iter=s;iter>=e;--iter)
 #define watch(x) cerr << (#x) << " is " << (x) << endl;
 #define pb push_back
 #define pf push_front
@@ -17,7 +17,7 @@ using namespace std;
 #define ff first
 #define ss second
 #define all(x) (x).begin(), (x).end()
-#define sz(x) (long long int)(x).size()
+#define sz(x) (int)(x).size()
 #define prv(a) for(auto x : a) cout << x << ' ';cout << '\n';
 #define debv(a) for(auto x : a) cerr << x << ' ';cerr << '\n';
 #define min3(a, b, c) min(a, min(b, c))
