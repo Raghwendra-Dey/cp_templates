@@ -1,0 +1,6 @@
+{
+"cmd": ["g++ -std=c++17 ${file} && timeout 5s ./a.out<inp.txt>out.txt 2>&1 && rm a.out"],
+"shell":true,
+"working_dir":"${file_path}",
+"selector":"source.cpp, source.c++, source.cxx"
+}

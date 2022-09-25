@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define int long long
-#define uint unsigned long long;
 #define endl "\n"
 #define fr(iter,n)  for(int iter=0;iter<n;++iter)
 #define frr(iter,s,e) for(int iter=s;iter<e;++iter)
@@ -25,6 +23,8 @@ using namespace std;
 #define MOD 1000000007
 #define fastio ios_base::sync_with_stdio(0);\
 		cin.tie(0);cout.tie(0);
+#define int long long
+#define uint unsigned long long;
 
 typedef pair<int, int> ii;
 typedef pair<int, ii> iii;
