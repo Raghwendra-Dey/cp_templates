@@ -1,5 +1,5 @@
 <snippet>
-		<content><![CDATA[
+	<content><![CDATA[
 #include <bits/stdc++.h>
 using namespace std;
 #define endl "\n"
