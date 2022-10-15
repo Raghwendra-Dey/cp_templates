@@ -24,7 +24,8 @@ using namespace std;
 #define fastio ios_base::sync_with_stdio(0);\
 		cin.tie(0);cout.tie(0);
 #define int long long
-#define uint unsigned long long;
+#define uint unsigned long long
+#define yon(fg) cout << (fg?"YES":"NO") << endl;
 
 typedef pair<int, int> ii;
 typedef pair<int, ii> iii;
@@ -36,7 +37,7 @@ int INF = 0x7FFFFFFFFFFFFFFF;
 
 void dbg_out() { cerr << endl; }
 template<typename Head, typename... Tail> void dbg_out(Head H, Tail... T) { cerr << ' ' << H; dbg_out(T...); }
-#define dbg(...) cerr << "(" << #__VA_ARGS__ << "):", dbg_out(__VA_ARGS__)
+#define dbg(...) cerr << "(" << #__VA_ARGS__ << "):", dbg_out(__VA_ARGS__);
 
 void ree() {}
 template<typename First, typename ...Rest>
